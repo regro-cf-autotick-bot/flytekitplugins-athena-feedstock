@@ -1,5 +1,5 @@
 {% set name = "flytekitplugins-athena" %}
-{% set version = "1.0.5" %}
+{% set version = "1.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flytekitplugins-athena-{{ version }}.tar.gz
-  sha256: 7cb730685cfe9028e2a4b9b523d418c5255cf54a82173868873359408f53d7a0
+  sha256: bdbcefca2f51e707ce29c1ebb65640a7c7c3a11ab803094355727f4cc4659395
 
 build:
   number: 0
@@ -35,7 +35,7 @@ about:
   home: https://pypi.org/project/flytekitplugins-athena/
   summary: This package holds the Athena plugins for flytekit
   license: Apache-2.0
-  license_file: 
+  license_file:
     - LICENSE
     - NOTICE
   description: |
