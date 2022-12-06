@@ -1,5 +1,5 @@
 {% set name = "flytekitplugins-athena" %}
-{% set version = "1.2.4" %}
+{% set version = "1.2.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flytekitplugins-athena-{{ version }}.tar.gz
-  sha256: 04a84dc20bfe1023819b3674f507e546d74ed9bf053d116a04ac0e854e570315
+  sha256: 0538f9bf70124cb53ff3f50d9900be1856c7d6a26e627c2b8652010e67e2bb5f
 
 build:
   number: 0
